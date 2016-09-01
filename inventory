@@ -2,7 +2,7 @@
 localhost1 ansible_ssh_host=localhost  ansible_ssh_port=2200 ansible_centos_user=vagrant
 
 [jboss_eap_rhel_hosts]
-10.3.8.173
+localhost ansible_ssh_host=localhost ansible_ssh_port=2222 ansible_centos_user=vagrant ansible_ssh_private_key_file=/Users/khua/Downloads/work/cdk/components/rhel/rhel-ose/.vagrant/machines/default/virtualbox/private_key
 
 [jboss_bxms_eap_centos_hosts]
-localhost2 ansible_ssh_host=localhost ansible_ssh_port=2202 ansible_centos_user=vagrant
+localhost ansible_ssh_host=localhost ansible_ssh_port=2222 ansible_centos_user=vagrant ansible_ssh_private_key_file=/Users/khua/Downloads/work/cdk/components/rhel/rhel-ose/.vagrant/machines/default/virtualbox/private_key

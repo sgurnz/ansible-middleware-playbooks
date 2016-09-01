@@ -10,3 +10,6 @@ eap_java_pkg_name: java-1.8.0-openjdk-devel
 
 # Override the default method. See https://github.com/rhtconsulting/jboss_eap/blob/master/README.md
 transfer_method: csp-to-host  #csp-to-host | copy-from-controller | file-server-to-host
+
+rhn_username: "{{ lookup('env', 'SUB_USERNAME') }}"
+rhn_password: "{{ lookup('env', 'SUB_PASSWORD') }}"

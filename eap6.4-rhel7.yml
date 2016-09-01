@@ -15,3 +15,10 @@
   roles:
   - jboss_common
   - jboss_eap
+
+  tasks:
+  - name: install web app
+    get_url: 
+      url: https://github.com/kenthua/kitchensink-war/blob/master/deployments/ROOT.war?raw=true
+      dest: "{{ jboss_eap_home }}/standalone/deployments/jboss-kitchensink.war"
+    
