@@ -4,7 +4,7 @@
 - src: https://github.com/rhtconsulting/ansible-role-jboss-common
   name: jboss_common
 
-- src: sabre1041.redhat-csp-download
+- src: https://github.com/sgurnz/redhat-csp-download
   name: redhat-csp-download
 
 - src: https://github.com/rhtconsulting/jboss_bxms
